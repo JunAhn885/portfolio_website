@@ -1,0 +1,20 @@
+.left-content {
+    display:flex;
+    flex-direction: column;
+}
+
+.left-content {
+    inline-size: 500px;
+    overflow-wrap: break-word;
+}
+
+.tech-stacks {
+    display:flex;
+    flex-direction: row;
+}
+
+.demo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}

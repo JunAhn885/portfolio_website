@@ -1,0 +1,35 @@
+.content {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display:flex;
+    flex-direction: row;
+}
+
+.left-content {
+    display:flex;
+    flex-direction: column;
+    color:black;
+}
+
+.left-content > h2 {
+    inline-size: 50vw;
+    overflow: wrap;
+}
+
+.main-languages {
+    display: flex;;
+    flex-direction: row;
+}
+
+.main-skills {
+    display: flex;;
+    flex-direction: row;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}

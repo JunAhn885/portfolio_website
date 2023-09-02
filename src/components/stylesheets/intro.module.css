@@ -1,0 +1,23 @@
+.container {
+    display:flex;
+    flex-direction: row;
+}
+
+.left-content {
+    display:flex;
+    flex-direction: column;
+}
+
+.icons {
+    display:flex
+}
+
+.down-arrow {
+    cursor: pointer;
+}
+
+.right-content {
+    margin-left: auto;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+}
