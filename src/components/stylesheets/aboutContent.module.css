@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 .content {
     display:flex;
     flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
 .main-content {
@@ -12,24 +17,132 @@
     display:flex;
     flex-direction: column;
     color:black;
+    margin-right: 70px;
+}
+
+.left-content > h1 {
+    inline-size: 30vw;
+    overflow: wrap;
+    color: var(--Main-Black, #181717);
+    /* Heading-1 */
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.2%; /* 58.32px */
+    letter-spacing: -1.8px;
 }
 
 .left-content > h2 {
-    inline-size: 50vw;
+    inline-size: 40vw;
     overflow: wrap;
+    color: var(--Main-Gray, #606060);
+    /* Heading-2 */
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 117%; /* 37.44px */
+    letter-spacing: -0.96px;
+}
+
+.headshot {
+    width: 10vw;
 }
 
 .main-languages {
     display: flex;;
     flex-direction: row;
+    margin-top:80px;
 }
+
+.main-languages h1 {
+    text-decoration: underline;
+    color: var(--Main-Black, #181717);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%; /* 31.59px */
+    letter-spacing: -0.78px;
+    text-decoration-line: underline;
+    margin-right: 40px;
+}
+
+.main-languages h2 {
+    color: var(--Main-Black, #181717);
+    /* Heading-2 */
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 37.44px */
+    letter-spacing: -0.96px;
+    margin-top: 18px
+}
+
 
 .main-skills {
     display: flex;;
     flex-direction: row;
+    border-bottom: 2px solid #000;
+    margin-top:80px;
+    padding-bottom: 100px;
+}
+
+.main-skills h1 {
+    text-decoration: underline;
+    color: var(--Main-Black, #181717);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%; /* 31.59px */
+    letter-spacing: -0.78px;
+    text-decoration-line: underline;
+    margin-right: 110px;
+}
+
+.main-skills h2 {
+    color: var(--Main-Black, #181717);
+    /* Heading-2 */
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 37.44px */
+    letter-spacing: -0.96px;
+    margin-top: 18px;
 }
 
 .contact {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
 }
+
+.contact h1 {
+    color: var(--Main-Black, #181717);
+    /* Heading-2 */
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 37.44px */
+    letter-spacing: -0.96px;
+    inline-size:20vw;
+}
+
+.contact h2 {
+    color: var(--Main-Black, #181717);
+    /* Heading-2 */
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 37.44px */
+    letter-spacing: -0.96px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
