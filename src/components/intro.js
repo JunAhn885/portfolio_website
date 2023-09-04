@@ -5,13 +5,14 @@ export default function Intro(){
     return (
         <div className={styles.container}>
             <div className={styles["left-content"]}>
-                <h1>Hello I'm Jun Ahn.</h1>
+                <h1>Hello, I'm Jun Ahn.</h1>
                 <div className={styles.icons}>
                     <Image
                         src="/icons/linkedIn_icon.svg"
                         alt = "LinkedIn Icon"
                         height={50}
                         width={50}
+                        className={styles.linkedin}
                     />
                     <Image
                         src="/icons/github_icon.svg"
@@ -29,7 +30,7 @@ export default function Intro(){
                     />
             </div>
             <div className={styles["right-content"]}>
-                <h1>Front-end Developer passionate about crafting clean code and compelling experiences for the web</h1>
+                <h1><strong>Front-end Developer</strong> passionate about crafting clean code and compelling experiences for the web</h1>
             </div>
         </div>
     )

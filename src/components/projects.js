@@ -6,7 +6,7 @@ export default function Project() {
     const projects = [
         {
             name: "BeanKeeper",
-            description: "Description goes here",
+            description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
             techUsed: ["React", "HTML", "CSS"],
             githubLink: "https://github.com/JunAhn885/I-A-I/tree/main/frontend",
             liveDemoLink : "https://capstone-77b48.web.app/"
@@ -34,6 +34,7 @@ export default function Project() {
                 alt = "BeanKeeper"
                 width={637}
                 height={383}
+                className={styles.image}
             />
         </div>
     )

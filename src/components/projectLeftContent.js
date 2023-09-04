@@ -26,6 +26,7 @@ export default function ProjectLeftContent({index, name, description, techUsed, 
                 alt = {`${tech}`}
                 width={70}
                 height={61}
+                className={styles["tech-stack"]}
             />
         )
     })
@@ -44,7 +45,7 @@ export default function ProjectLeftContent({index, name, description, techUsed, 
                             alt = "github link"
                             width={135}
                             height={40}
-                            onclick="location.href='https://google.com';"
+                            className={styles['github-link']}
                         />
                     </Link>
                     <Link href={`${liveDemoLink}`}>   
@@ -53,6 +54,7 @@ export default function ProjectLeftContent({index, name, description, techUsed, 
                         alt = "live demo link"
                         width={217}
                         height={39}
+                        className={styles["live-demo"]}
                         />
                     </Link> 
                 </div>

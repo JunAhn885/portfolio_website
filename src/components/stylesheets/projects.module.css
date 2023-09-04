@@ -1,4 +1,15 @@
 .project {
     display: flex;
     flex-direction: row;
+    width:100%;
+    
+    padding-bottom: 70px;
+   
+    
+    border-bottom: 2px solid #000;
+}
+
+.image {
+    max-width: 637px;
+    width:70%;
 }

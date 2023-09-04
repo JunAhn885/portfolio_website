@@ -1,20 +1,55 @@
 .left-content {
     display:flex;
     flex-direction: column;
-}
-
-.left-content {
     inline-size: 500px;
     overflow-wrap: break-word;
+    margin-right: 100px;
+}
+
+.left-content h1 {
+    color: var(--Main-Black, #181717);
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%; /* 29.16px */
+    letter-spacing: -0.72px;
+}
+
+.left-content h2 {
+    color: var(--Main-Black, #181717);
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121.5%; /* 25.515px */
+    letter-spacing: -0.63px;
 }
 
 .tech-stacks {
     display:flex;
     flex-direction: row;
+    margin: auto;
+}
+
+.tech-stack {
+    margin-right:30px;
+    margin-left: 30px;
 }
 
 .demo {
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    margin: auto;
+}
+
+.live-demo {
+    margin-left: 15px;
+}
+
+.github-link {
+    margin-right: 15px
 }
