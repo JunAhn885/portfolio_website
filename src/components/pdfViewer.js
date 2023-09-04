@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
+import styles from './stylesheets/resume.module.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.js',
@@ -17,7 +18,7 @@ export default function PDFViewer(){
     }
 
     return (
-        <div>
+        <div className={styles.resume}>
            <Document file="/documents/Resume_Ahn_Jun.pdf" onLoadSuccess={onLoadSuccess}>
                 <Page pageNumber={1} />
             </Document>

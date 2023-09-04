@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
 .header{
     display:flex;
+    margin-top: 70px;
+    margin-left:80px;
+    margin-right:80px
+
+}
+
+.header-list a {
+    color: var(--Main-Black, #181717);
+}
+
+.header-list a:hover {
+    color: #000000;
+    font-weight: 1000;
+    font-size:21.5px;
 }
 
 .header-list{
@@ -7,8 +23,13 @@
     list-style-type: none;
     flex-direction: row;
     margin-left: auto;
+    color: var(--Main-Black, #181717);
+    /* Navigation */
+    font-family: DM Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+    letter-spacing: -0.63px;
 }
 
-.header_list li{
-
-}
