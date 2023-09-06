@@ -9,8 +9,16 @@ export default function Project() {
             description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
             techUsed: ["React", "HTML", "CSS"],
             githubLink: "https://github.com/JunAhn885/I-A-I/tree/main/frontend",
-            liveDemoLink : "https://capstone-77b48.web.app/"
-        }
+            liveDemoLink : "https://capstone-77b48.web.app/",
+        },
+        
+        {
+            name: "BeanKeeper",
+            description: "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+            techUsed: ["React", "HTML", "CSS"],
+            githubLink: "https://github.com/JunAhn885/I-A-I/tree/main/frontend",
+            liveDemoLink : "https://capstone-77b48.web.app/",
+        },
     ]
 
     const leftContent = projects.map((project, index) => {
@@ -27,15 +35,8 @@ export default function Project() {
     })
 
     return (
-        <div className={styles.project}>
+        <div className={styles.project} id={"project-section"}>
             {leftContent}
-            <Image
-                src = "/icons/images/BeanKeeper.svg"
-                alt = "BeanKeeper"
-                width={637}
-                height={383}
-                className={styles.image}
-            />
         </div>
     )
 }

@@ -2,10 +2,10 @@
 .content {
     display:flex;
     flex-direction: column;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
 }
 
 .main-content {
@@ -17,7 +17,7 @@
     display:flex;
     flex-direction: column;
     color:black;
-    margin-right: 70px;
+    margin-right: 0px;
 }
 
 .left-content > h1 {
@@ -34,7 +34,7 @@
 }
 
 .left-content > h2 {
-    inline-size: 40vw;
+    inline-size: 35vw;
     overflow: wrap;
     color: var(--Main-Gray, #606060);
     /* Heading-2 */
@@ -44,10 +44,11 @@
     font-weight: 200;
     line-height: 117%; /* 37.44px */
     letter-spacing: -0.96px;
+    margin-right: 50px;
 }
 
 .headshot {
-    width: 10vw;
+    width: 30vw;
 }
 
 .main-languages {

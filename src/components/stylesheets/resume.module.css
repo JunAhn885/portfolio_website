@@ -3,3 +3,7 @@
     margin: auto;
     margin-top: 50px;
 }
+
+.react-pdf__Page {
+    width:20vw;
+}

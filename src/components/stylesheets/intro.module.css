@@ -18,6 +18,7 @@
     overflow-wrap: break-word;
 
     /* Heading-1 */
+    font-family: DM Sans;
     font-size: 60px;
     font-style: normal;
     font-weight: 450;
@@ -34,6 +35,8 @@
 
 .down-arrow {
     cursor: pointer;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
 }
 
 .right-content {
@@ -55,4 +58,22 @@
 
 .linkedin {
     margin-right: 10px
+}
+
+.linkedin:hover {
+    transform:scale(1.1)
+}
+
+.github:hover {
+    transform:scale(1.1)
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }

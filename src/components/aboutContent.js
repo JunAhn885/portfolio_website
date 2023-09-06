@@ -8,15 +8,18 @@ export default function AboutContent(){
                 <div className={styles["left-content"]}>
                     <h1>Hi, I’m Jun Ahn, Front-End Developer Based in Seattle</h1>
                     <h2>I am a graduate from the University of Washington with a background in Informatics and Economics.</h2>
-                    <h2>As an aspiring software engineer, I specialize in Front-end development to create function and reactive websites.</h2>
+                    <h2>As an aspiring software engineer, I specialize in Front-end development to create functional and reactive websites.</h2>
                     <h2>Outside of work, I love cycling, cooking, and exploring new restaurants!</h2>
                 </div>
+               
                 <Image
                     src = "/icons/images/headshot.svg"
                     alt = "Jun Ahn"
                     width={500}
                     height={554}
+                    className={styles.headshot}
                 />
+                
             </div>
             <div className={styles["main-languages"]}>
                 <h1>Main Languages</h1>

@@ -1,3 +1,11 @@
+.project{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 2px solid #000;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
 .left-content {
     display:flex;
     flex-direction: column;
@@ -50,6 +58,14 @@
     margin-left: 15px;
 }
 
+.live-demo:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
 .github-link {
     margin-right: 15px
+}
+
+.github-link:hover {
+    transform: scale(1.1);
 }

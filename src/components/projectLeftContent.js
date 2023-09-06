@@ -32,7 +32,8 @@ export default function ProjectLeftContent({index, name, description, techUsed, 
     })
 
     return (
-        <div className={styles["left-content"]}>
+        <div className={styles.project}>
+            <div className={styles["left-content"]}>
                 <h1>0{index + 1} / {name}</h1>
                 <h2>{description}</h2>
                 <div className={styles["tech-stacks"]}>
@@ -59,5 +60,13 @@ export default function ProjectLeftContent({index, name, description, techUsed, 
                     </Link> 
                 </div>
             </div>
+            <Image
+            src = "/icons/images/BeanKeeper.svg"
+            alt = "BeanKeeper"
+            width={637}
+            height={383}
+            className={styles.image}
+            />
+    </div>
     )
 }
