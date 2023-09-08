@@ -49,6 +49,9 @@
 
 .headshot {
     width: 30vw;
+    height: auto;
+    margin-bottom: auto;
+    margin-top: 50px;
 }
 
 .main-languages {
@@ -147,3 +150,109 @@
     margin-right: 100px;
 }
 
+@media (min-width: 600px) and (max-width: 1000px) {
+    .main-content {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .left-content > h1 {
+        inline-size: 60vw;
+        font-size: 50px;
+    }
+
+    .left-content > h2 {
+        inline-size: 50vw;
+        font-size: 30px;
+    }
+
+    .main-languages h1 {
+        font-size: 24px;
+    }
+
+    .main-languages h2 {
+        font-size: 28px;
+    }
+
+    .main-skills h1 {
+        font-size: 24px;
+    }
+
+    .main-skills h2 {
+        font-size: 28px;
+    }
+
+    .contact {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .contact h1 {
+        inline-size: 40vw;
+        font-size: 28px;
+    }
+
+    .contact h2 {
+        margin-left: 0px;
+        font-size: 28px;
+    }
+
+    .main-skills {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 599px) {
+    .headshot {
+        width:50vw
+    }
+    
+    .main-content {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .left-content > h1 {
+        inline-size: 70vw;
+        font-size: 45px;
+    }
+
+    .left-content > h2 {
+        inline-size: 60vw;
+        font-size: 25px;
+    }
+    
+
+    .main-languages h1 {
+        font-size: 20px;
+    }
+
+    .main-languages h2 {
+        font-size: 22px;
+    }
+
+    .main-skills h1 {
+        font-size: 20px;
+
+    }
+
+    .main-skills h2 {
+        font-size: 22px;
+    }
+
+    .contact h1 {
+        inline-size: 40vw;
+        font-size: 24px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .contact {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+}

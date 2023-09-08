@@ -19,7 +19,7 @@ export default function PDFViewer(){
 
     return (
         <div className={styles.resume}>
-           <Document file="/documents/Resume_Ahn_Jun.pdf" onLoadSuccess={onLoadSuccess}>
+           <Document file="/documents/Resume_Ahn_Jun.pdf" onLoadSuccess={onLoadSuccess} height="100px">
                 <Page pageNumber={1} />
             </Document>
             

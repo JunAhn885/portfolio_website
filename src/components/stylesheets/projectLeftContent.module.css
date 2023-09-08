@@ -4,12 +4,13 @@
     border-bottom: 2px solid #000;
     padding-bottom: 70px;
     padding-top: 70px;
+    width: 100%;
 }
 
 .left-content {
     display:flex;
     flex-direction: column;
-    inline-size: 500px;
+    inline-size: 400px;
     overflow-wrap: break-word;
     margin-right: 100px;
 }
@@ -34,12 +35,14 @@
     font-weight: 400;
     line-height: 121.5%; /* 25.515px */
     letter-spacing: -0.63px;
+    margin-bottom: 40px;
 }
 
 .tech-stacks {
     display:flex;
     flex-direction: row;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .tech-stack {
@@ -68,4 +71,65 @@
 
 .github-link:hover {
     transform: scale(1.1);
+}
+
+.image {
+    max-width: 637px;
+    width:60%;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .project{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .image {
+        max-width: 637px;
+        width:50%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .left-content {
+        margin: auto;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 699px) {
+    .project{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    
+    .image {
+        max-width: 637px;
+        min-width: 208px;
+        width:50%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .left-content h1 {
+        font-size: 20px;
+    }
+
+    .left-content h2 {
+        font-size: 19px;
+    }
+
+    .tech-stack {
+        width: 30px
+    }
+
+    .live-demo {
+        width: 30vw;
+    }
+
+    .github-link {
+        width: 20vw;
+    }
 }
