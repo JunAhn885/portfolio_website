@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './stylesheets/projectLeftContent.module.css'
 
-export default function ProjectLeftContent({index, name, description, techUsed, githubLink, liveDemoLink}) {
+export default function ProjectLeftContent({index, name, description, techUsed, githubLink, liveDemoLink, imageLink}) {
     // dictionary data structure to hold all the links to the tech icons
     // all keys are lowercase - data processing needed
     const techIconLinks = {
@@ -61,11 +61,11 @@ export default function ProjectLeftContent({index, name, description, techUsed, 
                 </div>
             </div>
             <Image
-            src = "/icons/images/BeanKeeper.svg"
-            alt = "BeanKeeper"
-            width={637}
-            height={383}
-            className={styles.image}
+                src = {imageLink}
+                alt = "BeanKeeper"
+                width={637}
+                height={383}
+                className={styles.image}
             />
     </div>
     )

@@ -1,18 +1,8 @@
 .resume {
-    max-width: 612px;
+    max-width: 1000px;
+    
     margin: auto;
     margin-top: 50px;
 }
 
-.react-pdf__Page {
-    width:20vw;
-}
 
-.Example__container__document .react-pdf__Page canvas {
-    max-width: 1000%;
-    height: auto !important;
-  }
-
-.react-pdf__Page__canvas canvas{
-    width: 900px !important;
-}

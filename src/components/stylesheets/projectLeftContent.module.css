@@ -41,13 +41,13 @@
 .tech-stacks {
     display:flex;
     flex-direction: row;
-    margin: auto;
+    
     margin-bottom: 40px;
 }
 
 .tech-stack {
-    margin-right:30px;
-    margin-left: 30px;
+    margin:auto;
+    justify-content: space-between;
 }
 
 .demo {
@@ -75,6 +75,7 @@
 
 .image {
     max-width: 637px;
+    max-height: 383px;
     width:60%;
     overflow: hidden;
     height: auto;
@@ -117,12 +118,19 @@
         font-size: 20px;
     }
 
+    .left-content {
+        margin: auto;
+        inline-size: 60vw;
+    }
+
     .left-content h2 {
         font-size: 19px;
     }
 
     .tech-stack {
-        width: 30px
+        width: 50px;
+        margin:auto;
+        justify-content: space-between;
     }
 
     .live-demo {
