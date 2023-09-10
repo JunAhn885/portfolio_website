@@ -13,25 +13,24 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 export default function PDFViewer(){
     const [numPages, setNumPages] = useState(null);
+    const [windowWidth, setWindowWidth] = useState(1000);
 
     function onLoadSuccess({ numPages }) {
         setNumPages(numPages);
     }
 
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
     useEffect(() => {
         // Function to update window width
         const updateWindowWidth = () => {
-        setWindowWidth(window.innerWidth);
+            setWindowWidth(window.innerWidth);
         };
-
+  
         // Attach event listener for window resize
         window.addEventListener('resize', updateWindowWidth);
-
+  
         // Clean up the event listener when the component unmounts
         return () => {
-        window.removeEventListener('resize', updateWindowWidth);
+            window.removeEventListener('resize', updateWindowWidth);
         };
     }, []);
     

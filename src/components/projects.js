@@ -7,7 +7,7 @@ export default function Project() {
         {
             name: "BeanKeeper",
             description: "Journaling application meant to foster the relationship between parents with new born babies",
-            techUsed: ["React", "HTML", "CSS"],
+            techUsed: ["React", "firebase", "CSS"],
             githubLink: "https://github.com/JunAhn885/I-A-I/tree/main/frontend",
             liveDemoLink : "https://capstone-77b48.web.app/",
             imageLink: "/icons/images/BeanKeeper.svg"
@@ -17,7 +17,7 @@ export default function Project() {
             name: "Shoppery - Coming Soon!",
             description: "Ecommerce grocery platform centered around selling natural and organic food-related goods",
             techUsed: ["next.js", "React", "Sass"],
-            githubLink: "https://github.com/JunAhn885/I-A-I/tree/main/frontend",
+            githubLink: "https://github.com/JunAhn885/shoppery",
             liveDemoLink : "none",
             imageLink: "/icons/images/shoppery.png"
         },
