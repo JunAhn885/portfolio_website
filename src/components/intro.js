@@ -1,6 +1,5 @@
 import styles from "./stylesheets/intro.module.css"
 import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Intro(){
     return (
@@ -8,7 +7,7 @@ export default function Intro(){
             <div className={styles["left-content"]}>
                 <h1>Hello, I'm Jun Ahn.</h1>
                 <div className={styles.icons}>
-                    <Link href="https://www.linkedin.com/in/junahn2/">
+                    <a target="_blank" href="https://www.linkedin.com/in/junahn2/">
                         <Image
                             src="/icons/linkedIn_icon.svg"
                             alt = "LinkedIn Icon"
@@ -16,8 +15,8 @@ export default function Intro(){
                             width={50}
                             className={styles.linkedin}
                         />
-                    </Link>
-                    <Link href="https://github.com/JunAhn885">
+                    </a>
+                    <a target="_blank" href="https://github.com/JunAhn885">
                         <Image
                             src="/icons/github_icon.svg"
                             alt = "GitHub Icon"
@@ -25,7 +24,7 @@ export default function Intro(){
                             width={50}
                             className={styles.github}
                         />
-                    </Link>
+                    </a>
                 </div>
                 <a href={"#project-section"}>
                     <Image

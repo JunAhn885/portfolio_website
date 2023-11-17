@@ -17,18 +17,18 @@
 
 .left-content h1 {
     color: var(--Main-Black, #181717);
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
+    font-style: bold;
+    font-weight: 600;
     line-height: 121.5%; /* 29.16px */
     letter-spacing: -0.72px;
 }
 
 .left-content h2 {
     color: var(--Main-Black, #181717);
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 21px;
     font-style: normal;
@@ -116,6 +116,7 @@
 
     .left-content h1 {
         font-size: 20px;
+        text-align: center;
     }
 
     .left-content {
@@ -125,6 +126,7 @@
 
     .left-content h2 {
         font-size: 19px;
+        text-align: center;
     }
 
     .tech-stack {
